@@ -5,14 +5,10 @@
 
 int main(int argc, char *argv[]) {
 	
-	char src[] = "THe worst things to eat before you sleep";
-	char dst[100];
-	
-	//strcpy
-	strcpy(dst,src);
+	char src[30] = "happy c programming";//[]안에 안넣어도 됨
 	
 	
-	printf("copied string : %s\n", dst);
+	printf("문자열 \"%s\"의 길이  : %i\n", src, strlen(src));
 	system("PAUSE");
 	return 0;
 }
